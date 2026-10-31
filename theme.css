@@ -1,0 +1,124 @@
+/* ===== Header tools: language + dark mode buttons ===== */
+.header-tools{display:flex;align-items:center;gap:8px;margin-left:14px}
+.tool-btn{display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:40px;padding:0 10px;border-radius:12px;border:1.5px solid rgba(30,58,95,.18);background:rgba(255,255,255,.7);color:#1e3a5f;font:600 14px/1 'Poppins','Noto Sans Devanagari',sans-serif;cursor:pointer;transition:background .2s,transform .15s,border-color .2s}
+.tool-btn i{font-size:16px}
+.tool-btn:hover{border-color:#c9a962;background:#fff}
+.tool-btn:active{transform:scale(.94)}
+.tool-btn:focus-visible{outline:2px solid #3aa6a0;outline-offset:2px}
+@media (max-width:992px){
+  .header-tools{margin-left:auto;gap:6px}
+  .mobile-menu-btn{margin-left:6px!important}
+}
+@media (max-width:380px){
+  .tool-btn{min-width:36px;height:36px;padding:0 8px;border-radius:10px}
+  .header-tools{gap:5px}
+  .mobile-menu-btn{width:38px!important}
+  .logo-text{font-size:15px!important}
+  .header .logo-img{width:38px!important;height:38px!important}
+}
+
+/* ===== Tax tips ===== */
+.tips{padding:100px 0;background:#f8fafc}
+.tips-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:44px}
+.tip-card{display:flex;flex-direction:column;align-items:flex-start;gap:12px;background:#fff;border:1px solid rgba(30,58,95,.08);border-radius:20px;padding:26px 24px;box-shadow:0 14px 36px rgba(18,38,63,.08);transition:transform .25s,box-shadow .25s}
+.tip-card:hover{transform:translateY(-5px);box-shadow:0 20px 44px rgba(18,38,63,.14)}
+.tip-cat{display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border-radius:999px;background:rgba(58,166,160,.12);color:#1d6f72;font-size:12px;font-weight:600;letter-spacing:.04em}
+.tip-card h3{font-size:1.1rem;line-height:1.35;color:#1e3a5f}
+.tip-card p{font-size:.95rem;line-height:1.65;color:#6b7280;flex:1}
+.tip-link{font-size:.9rem;font-weight:600;color:#1e3a5f;text-decoration:none;display:inline-flex;align-items:center;gap:8px;min-height:32px}
+.tip-link i{transition:transform .2s}
+.tip-link:hover i{transform:translateX(4px)}
+.tips-note{margin:28px auto 0;max-width:640px;text-align:center;font-size:.85rem;color:#6b7280}
+@media (max-width:992px){.tips-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.tips{padding:70px 0}.tips-grid{grid-template-columns:1fr;gap:16px;margin-top:32px}.tip-card{padding:22px 20px}}
+
+/* ===== Hindi typography ===== */
+body{font-family:'Poppins','Noto Sans Devanagari',sans-serif}
+html[lang="hi"] h1,html[lang="hi"] h2,html[lang="hi"] h3,html[lang="hi"] .stat-number{font-family:'Poppins','Noto Sans Devanagari',sans-serif}
+html[lang="hi"] .section-title,html[lang="hi"] .hero-title,html[lang="hi"] .faq-head h2,html[lang="hi"] .about-content h2{font-family:'Noto Serif Devanagari','Playfair Display',serif;line-height:1.35}
+/* letter-spacing and forced caps break Devanagari conjuncts */
+html[lang="hi"] *{letter-spacing:normal!important;text-transform:none!important}
+html[lang="hi"] body{line-height:1.75}
+html[lang="hi"] .btn,html[lang="hi"] .nav-link{white-space:normal}
+
+/* ===== Dark mode ===== */
+:root[data-theme="dark"]{color-scheme:dark;--text-dark:#e7edf5;--text-light:#9fb0c4;--bg-light:#0f1a2c;--dk-bg:#0b1424;--dk-bg2:#0f1b2f;--dk-card:#15233a;--dk-card2:#1a2a45;--dk-line:rgba(255,255,255,.1);--dk-head:#f2f6fb;--shadow-sm:0 2px 10px rgba(0,0,0,.35);--shadow-md:0 8px 24px rgba(0,0,0,.4);--shadow-lg:0 20px 60px rgba(0,0,0,.5)}
+[data-theme="dark"] body{background:var(--dk-bg);color:var(--text-dark)}
+
+/* page sections */
+[data-theme="dark"] .features,[data-theme="dark"] .about,[data-theme="dark"] .process,[data-theme="dark"] .docs,[data-theme="dark"] .contact,[data-theme="dark"] .testimonials{background:var(--dk-bg)}
+[data-theme="dark"] .services,[data-theme="dark"] .why-choose,[data-theme="dark"] .tips,[data-theme="dark"] .location,[data-theme="dark"] .faq,[data-theme="dark"] .promise-wrap{background:var(--dk-bg2)}
+
+/* cards and panels */
+[data-theme="dark"] .feature-card,[data-theme="dark"] .features .feature-card,[data-theme="dark"] .service-card,[data-theme="dark"] .why-choose-card,[data-theme="dark"] .testimonial-card,[data-theme="dark"] .contact-form-wrapper,[data-theme="dark"] .step-card,[data-theme="dark"] .team-card,[data-theme="dark"] .docs-card,[data-theme="dark"] .loc-card,[data-theme="dark"] .faq-item,[data-theme="dark"] .tip-card,[data-theme="dark"] .help-card,[data-theme="dark"] .floating-card,[data-theme="dark"] .hero-img-wrapper .floating-card{background:var(--dk-card);border-color:var(--dk-line);box-shadow:0 14px 36px rgba(0,0,0,.35)}
+[data-theme="dark"] .service-card:first-child{background:linear-gradient(135deg,#12294a,#1b5f63)}
+[data-theme="dark"] .help-card:hover{background:var(--dk-card2)}
+[data-theme="dark"] .doc-item,[data-theme="dark"] .doc-list label{background:var(--dk-card2);border-color:var(--dk-line)}
+[data-theme="dark"] .doc-item:hover{background:#203455}
+[data-theme="dark"] .doc-box{background:var(--dk-bg);border-color:#5d7596}
+[data-theme="dark"] .doc-tab{background:var(--dk-card2);color:var(--text-dark);border-color:var(--dk-line)}
+[data-theme="dark"] .doc-tab.active{background:#1d6f72;color:#fff}
+
+/* headings and text that were navy */
+[data-theme="dark"] .section-title,[data-theme="dark"] .feature-card h3,[data-theme="dark"] .service-card h3,[data-theme="dark"] .why-choose-card h3,[data-theme="dark"] .testimonial-info h4,[data-theme="dark"] .contact-details h3,[data-theme="dark"] .contact-form h3,[data-theme="dark"] .about-content h2,[data-theme="dark"] .faq-head h2,[data-theme="dark"] .faq-item summary,[data-theme="dark"] .help-title,[data-theme="dark"] .help-card,[data-theme="dark"] .step-card h3,[data-theme="dark"] .team-card h3,[data-theme="dark"] .loc-row h3,[data-theme="dark"] .tip-card h3,[data-theme="dark"] .tip-link,[data-theme="dark"] .about-feature,[data-theme="dark"] .service-list li,[data-theme="dark"] .service-link,[data-theme="dark"] .floating-card .card-value,[data-theme="dark"] .docs h3,[data-theme="dark"] .docs-card h3,[data-theme="dark"] .doc-txt,[data-theme="dark"] .map-ph{color:var(--dk-head)}
+[data-theme="dark"] .service-card:first-child h3,[data-theme="dark"] .service-card:first-child li,[data-theme="dark"] .service-card:first-child .service-link{color:#fff}
+[data-theme="dark"] .faq-head h2 .faq-accent,[data-theme="dark"] .faq-accent{color:#5ec9c2}
+[data-theme="dark"] .section-subtitle,[data-theme="dark"] .faq-label{color:#5ec9c2}
+[data-theme="dark"] .tip-cat{background:rgba(94,201,194,.14);color:#7fdad4}
+[data-theme="dark"] .service-icon,[data-theme="dark"] .contact-icon,[data-theme="dark"] .promise-ico{color:var(--dk-head)}
+[data-theme="dark"] p,[data-theme="dark"] .tip-card p,[data-theme="dark"] .tips-note,[data-theme="dark"] .about-desc,[data-theme="dark"] .faq-body p,[data-theme="dark"] .step-card p,[data-theme="dark"] .why-choose-card p,[data-theme="dark"] .service-card p,[data-theme="dark"] .feature-card p{color:var(--text-light)}
+[data-theme="dark"] .service-card:first-child p{color:rgba(255,255,255,.85)}
+
+/* header and menu */
+[data-theme="dark"] .header,[data-theme="dark"] .header.scrolled{background:rgba(11,20,36,.94)}
+[data-theme="dark"] .logo-text{color:var(--dk-head)}
+[data-theme="dark"] .nav-link,[data-theme="dark"] .mobile-menu-btn{color:var(--dk-head)}
+[data-theme="dark"] .nav-link:hover{color:var(--accent-color)}
+[data-theme="dark"] .nav.active{background:var(--dk-card);box-shadow:0 20px 40px rgba(0,0,0,.5)}
+[data-theme="dark"] .nav.active .nav-link{border-bottom-color:var(--dk-line)}
+[data-theme="dark"] .tool-btn{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.2);color:#f2f6fb}
+[data-theme="dark"] .tool-btn:hover{background:rgba(255,255,255,.12);border-color:#c9a962}
+
+/* buttons, forms */
+[data-theme="dark"] .btn-secondary{color:var(--dk-head);border-color:rgba(255,255,255,.35)}
+[data-theme="dark"] .loc-call{background:transparent!important;color:var(--dk-head)!important;border-color:rgba(255,255,255,.4)!important}
+[data-theme="dark"] .form-group input,[data-theme="dark"] .form-group select,[data-theme="dark"] .form-group textarea{background:var(--dk-bg);color:var(--text-dark);border-color:var(--dk-line)}
+[data-theme="dark"] .form-group input::placeholder,[data-theme="dark"] .form-group textarea::placeholder{color:#7d8fa6}
+[data-theme="dark"] .form-group input:focus,[data-theme="dark"] .form-group select:focus,[data-theme="dark"] .form-group textarea:focus{background:#0e1a2e}
+[data-theme="dark"] .form-status.err{background:#3a1c22;color:#ffb4b4}
+[data-theme="dark"] .faq-item:hover{border-color:rgba(94,201,194,.35)}
+[data-theme="dark"] .open-badge.open{background:rgba(48,200,150,.16);color:#6ee7b7}
+[data-theme="dark"] .open-badge.closed{background:rgba(245,158,11,.16);color:#fbbf24}
+[data-theme="dark"] .map-frame{border-color:var(--dk-card)}
+[data-theme="dark"] .map-ph{background:linear-gradient(135deg,#15233a,#1a2e48)}
+[data-theme="dark"] .mobile-cta{background:rgba(11,20,36,.97);box-shadow:0 -6px 24px rgba(0,0,0,.5)}
+[data-theme="dark"] .mobile-cta .mc-call{background:#25406a}
+[data-theme="dark"] img.logo-img{box-shadow:0 0 0 3px rgba(255,255,255,.18)}
+
+/* dark: overrides for rules that used !important in enhancements.css */
+[data-theme="dark"] .features .feature-card{background:var(--dk-card)!important}
+[data-theme="dark"] .services{background:radial-gradient(circle at 1px 1px,rgba(255,255,255,.05) 1px,transparent 0) 0 0/26px 26px,var(--dk-bg2)!important}
+[data-theme="dark"] .section-subtitle,[data-theme="dark"] .why-choose .section-subtitle,[data-theme="dark"] .about-content .section-subtitle{color:#5ec9c2!important}
+[data-theme="dark"] .doc-progress span,[data-theme="dark"] #docCount,[data-theme="dark"] .doc-note,[data-theme="dark"] .calc-note{color:#9fb0c4}
+[data-theme="dark"] .loc-row a,[data-theme="dark"] .loc-row p,[data-theme="dark"] .contact-details p,[data-theme="dark"] .contact-details a{color:#cdd8e6}
+[data-theme="dark"] .loc-row a{color:#7fdad4}
+[data-theme="dark"] .about-experience{color:#0f2440}
+
+[data-theme="dark"] .doc-tabs{background:var(--dk-card2)}
+[data-theme="dark"] .doc-tab{background:transparent;color:#b8c6d8;border:0}
+[data-theme="dark"] .doc-tab.active{background:linear-gradient(135deg,#1d6f72,#3aa6a0);color:#fff}
+[data-theme="dark"] .contact-icon{background:var(--dk-card2)!important;color:#7fdad4!important}
+[data-theme="dark"] .faq-accent{background:linear-gradient(120deg,#8fd6ff,#5ec9c2)!important;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent!important;color:transparent!important}
+[data-theme="dark"] .calc-card{border-color:var(--dk-line)}
+
+/* brand name stays on one line in every language */
+.logo-text{white-space:nowrap;line-height:1.2}
+html[lang="hi"] .logo-text{line-height:1.2}
+@media (max-width:360px){
+  .mobile-cta{grid-template-columns:.8fr 1.15fr 1.45fr;gap:6px;padding-left:6px;padding-right:6px}
+  .mobile-cta a{font-size:12px;gap:4px;padding:0 4px}
+}
+
+/* keep a clear gap between brand name and the header buttons on small phones */
+@media (max-width:430px){.header .logo{gap:8px;min-width:0}.header .logo-text{font-size:17px!important}.header-tools{margin-left:10px}}
+@media (max-width:360px){.header .logo-text{font-size:15px!important}.header .logo-img{width:34px!important;height:34px!important}.header .logo{gap:6px}.header-tools{gap:4px;margin-left:8px}.tool-btn{min-width:34px;height:34px}.mobile-menu-btn{width:34px!important;margin-left:2px!important;font-size:22px}}

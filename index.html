@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accuratis Advisors - Accounting &amp; Tax Consultants</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="enhancements.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="theme.css">
+    <script>try{var t=localStorage.getItem("theme");if(!t&&matchMedia("(prefers-color-scheme:dark)").matches)t="dark";if(t==="dark")document.documentElement.setAttribute("data-theme","dark");if(localStorage.getItem("lang")==="hi")document.documentElement.lang="hi"}catch(e){}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+</head>
+<body>
+    <div id="preloader" aria-hidden="true"><div class="pl-stage"><div class="pl-glow"></div><div class="pl-ring"></div><div class="pl-coin"><img src="logo.png" alt=""><img class="pl-back" src="logo.png" alt=""></div></div><div class="pl-name">Accuratis <span>Advisors</span></div><div class="pl-sub">Accounting &amp; Tax Consultants</div><div class="pl-bar"><i></i></div></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <img class="logo-img" src="logo.png" alt="Accuratis Advisors logo"><span class="logo-text">Accuratis <span class="highlight">Advisors</span></span>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#tips" class="nav-link">Tax Tips</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Get Started</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="header-tools">
+                <button type="button" class="tool-btn" id="langBtn" aria-label="Switch language"><span>हिं</span></button>
+                <button type="button" class="tool-btn" id="themeBtn" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+<div class="hero-slides"><div class="hero-slide active"><span class="premium-badge hero-badge">Trusted by 500+ Businesses | Chartered Accountants</span>
+                <h1 class="hero-title">
+                    Your Financial
+                    <span class="gradient-text">Vision</span> Partner
+                </h1>
+                <p class="hero-desc">
+                    Expert accounting, tax planning, and financial advisory services tailored to help your business grow. We turn numbers into actionable insights.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Free Consultation</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Our Services</span>
+                    </a>
+                </div></div><div class="hero-slide" aria-hidden="true"><span class="premium-badge hero-badge">Tax &amp; GST Experts</span><h1 class="hero-title">Tax Planning &amp; <span class="gradient-text">GST</span> Made Simple</h1><p class="hero-desc">ITR, GST returns, TDS and compliance handled accurately and on time, so you never have to worry about deadlines.</p><div class="hero-buttons"><a href="#contact" class="btn btn-primary"><span>Free Consultation</span><i class="fas fa-arrow-right"></i></a><a href="#tools" class="btn btn-secondary"><span>GST Calculator</span></a></div></div><div class="hero-slide" aria-hidden="true"><span class="premium-badge hero-badge">Accounting &amp; Advisory</span><h1 class="hero-title">Grow Your Business With <span class="gradient-text">Confidence</span></h1><p class="hero-desc">Bookkeeping, payroll and financial advisory that turn your numbers into clear business decisions.</p><div class="hero-buttons"><a href="#services" class="btn btn-primary"><span>Our Services</span><i class="fas fa-arrow-right"></i></a><a href="#process" class="btn btn-secondary"><span>How We Work</span></a></div></div><div class="hero-slide" aria-hidden="true"><span class="premium-badge hero-badge">Business Registration</span><h1 class="hero-title">Start Your Company The <span class="gradient-text">Right Way</span></h1><p class="hero-desc">Company, LLP, MSME and GST registration with guidance at every step of the process.</p><div class="hero-buttons"><a href="#documents" class="btn btn-primary"><span>Documents Checklist</span><i class="fas fa-arrow-right"></i></a><a href="#contact" class="btn btn-secondary"><span>Free Consultation</span></a></div></div></div><div class="hero-ctrl"><button type="button" class="hero-arrow" id="heroPrev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button><div class="hero-dots"><button type="button" class="hero-dot active" aria-label="Slide 1"></button><button type="button" class="hero-dot" aria-label="Slide 2"></button><button type="button" class="hero-dot" aria-label="Slide 3"></button><button type="button" class="hero-dot" aria-label="Slide 4"></button></div><button type="button" class="hero-arrow" id="heroNext" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrapper">
+                    <canvas id="hero3d" aria-hidden="true"></canvas>
+                    <div class="floating-card">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="card-text">
+                            <span class="card-value">+45%</span>
+                            <span class="card-label">Growth</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="card-text">
+                            <span class="card-value">100%</span>
+                            <span class="card-label">Secure</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon"><i class="fas fa-award"></i></div>
+                        <div class="card-text">
+                            <span class="card-value">#1</span>
+                            <span class="card-label">Rated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certified Experts</h3>
+                    <p>CPAs and qualified professionals</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Data Security</h3>
+                    <p>Bank-level encryption</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Timely Service</h3>
+                    <p>Always on deadline</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated account manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">What We Offer</span>
+                <h2 class="section-title">Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" style="--delay: 0.1s">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>All Types of Accounting Work</h3>
+                    <p>Complete accounting solutions for your business needs.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Bookkeeping &amp; Ledgers</li>
+                        <li><i class="fas fa-check"></i> Financial Statements</li>
+                        <li><i class="fas fa-check"></i> Payroll Processing</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" style="--delay: 0.2s">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Income Tax &amp; TDS Filing</h3>
+                    <p>Expert tax filing services to ensure compliance.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Income Tax Returns</li>
+                        <li><i class="fas fa-check"></i> TDS Returns</li>
+                        <li><i class="fas fa-check"></i> Tax Audits</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" style="--delay: 0.3s">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>ESI/PF Registration &amp; Returns</h3>
+                    <p>Complete ESI and PF compliance services.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> ESI Registration</li>
+                        <li><i class="fas fa-check"></i> PF Registration</li>
+                        <li><i class="fas fa-check"></i> Monthly Returns</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" style="--delay: 0.4s">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>GST Services</h3>
+                    <p>Full GST compliance and registration.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> GST Registration</li>
+                        <li><i class="fas fa-check"></i> GST Returns (GSTR1/3B)</li>
+                        <li><i class="fas fa-check"></i> Reconciliation</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" style="--delay: 0.5s">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Business Licenses</h3>
+                    <p>All statutory licenses for your business.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Shop Act License</li>
+                        <li><i class="fas fa-check"></i> Fire License</li>
+                        <li><i class="fas fa-check"></i> Food License</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" style="--delay: 0.6s">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>MSME Registration</h3>
+                    <p>Get Udyam/MSME registration benefits.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Udyam Registration</li>
+                        <li><i class="fas fa-check"></i> MSME Certificate</li>
+                        <li><i class="fas fa-check"></i> Government Schemes</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <div class="about-main-img">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <div class="about-experience">
+                            <span class="exp-number">15+</span>
+                            <span class="exp-text">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-subtitle">About Us</span>
+                    <h2 class="section-title">Trusted Financial Partners Since 2010</h2>
+                    <p class="about-desc">
+                        At Accuratis Advisors, we believe that sound financial management is the foundation of business success. Our team of certified public accountants and financial experts is dedicated to providing personalized solutions that meet your unique needs.
+                    </p>
+                    <p class="about-desc">
+                        With over 15 years of experience, we've helped hundreds of businesses navigate complex financial landscapes, optimize their tax strategies, and achieve sustainable growth.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized Service</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Transparent Pricing</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Proactive Advice</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Industry Expertise</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Work With Us</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Simple &amp; Transparent</span>
+                <h2 class="section-title">How We Work</h2>
+            </div>
+            <div class="process-grid"><div class="step-card"><span class="step-no">01</span><div class="step-ico"><i class="fas fa-comments"></i></div><h3>Free Consultation</h3><p>Tell us about your business and what you need. We listen first.</p></div><div class="step-card"><span class="step-no">02</span><div class="step-ico"><i class="fas fa-folder-open"></i></div><h3>Share Documents</h3><p>Send documents securely over WhatsApp or email. No office visits needed.</p></div><div class="step-card"><span class="step-no">03</span><div class="step-ico"><i class="fas fa-file-signature"></i></div><h3>Prepare and File</h3><p>We prepare, double-check and file accurately and on time.</p></div><div class="step-card"><span class="step-no">04</span><div class="step-ico"><i class="fas fa-headset"></i></div><h3>Ongoing Support</h3><p>Reminders, queries and year-round guidance whenever you need it.</p></div></div>
+            <h3 class="help-title">Who We Help</h3>
+            <div class="help-grid"><div class="help-card"><i class="fas fa-rocket"></i><span>Startups</span></div><div class="help-card"><i class="fas fa-store"></i><span>Small Businesses</span></div><div class="help-card"><i class="fas fa-cart-shopping"></i><span>E-commerce Sellers</span></div><div class="help-card"><i class="fas fa-user-tie"></i><span>Professionals and Freelancers</span></div><div class="help-card"><i class="fas fa-boxes-stacked"></i><span>Traders and Retailers</span></div><div class="help-card"><i class="fas fa-globe"></i><span>NRIs</span></div></div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Why Choose Us</span>
+                <h2 class="section-title">The Accuratis Difference</h2>
+            </div>
+            <div class="why-choose-grid">
+                <div class="why-choose-card">
+                    <div class="why-number">01</div>
+                    <h3>Client-Centric Approach</h3>
+                    <p>We take the time to understand your business inside and out, providing solutions that align with your goals.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-number">02</div>
+                    <h3>Proactive Communication</h3>
+                    <p>No waiting for annual meetings. We keep you informed with regular updates and strategic insights.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-number">03</div>
+                    <h3>Technology Forward</h3>
+                    <p>We leverage cutting-edge accounting software and tools to streamline your financial processes.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-number">04</div>
+                    <h3>Value Beyond Numbers</h3>
+                    <p>We provide actionable insights that help you make better business decisions and drive growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="tools" id="tools">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Free Tool</span>
+                <h2 class="section-title">GST Calculator</h2>
+            </div>
+            <div class="calc-card">
+                <div class="calc-pane active" id="pane-gst">
+                    <div class="calc-fields">
+                        <label>Amount (&#8377;)<input type="number" id="gstAmt" value="10000" min="0"></label>
+                        <label>GST Rate (%)<input type="number" id="gstRate" value="18" min="0" max="100" step="0.5"></label>
+                    </div>
+                    <div class="chips"><button type="button" class="chip" data-r="5">5%</button><button type="button" class="chip active" data-r="18">18%</button><button type="button" class="chip" data-r="40">40%</button>
+                        <label class="radio"><input type="radio" name="gstMode" value="add" checked> Add GST</label>
+                        <label class="radio"><input type="radio" name="gstMode" value="remove"> Remove GST</label></div>
+                    <div class="calc-out"><div><small>Net Amount</small><b id="gNet">-</b></div><div><small>GST (CGST + SGST)</small><b id="gTax">-</b></div><div class="big"><small>Total</small><b id="gTot">-</b></div></div>
+                </div>
+                <p class="calc-note">For estimates only. GST rates vary by product or service, so confirm the applicable rate before filing.</p>
+                <div class="calc-cta"><a href="#contact" class="btn btn-primary"><span>Talk to our expert for exact figures</span></a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="docs" id="documents">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Be Prepared</span>
+                <h2 class="section-title">Documents Checklist</h2>
+            </div>
+            <div class="docs-card">
+                <div class="doc-tabs" role="tablist"><button type="button" class="doc-tab active" data-d="itr">ITR Filing</button><button type="button" class="doc-tab" data-d="gst">GST Registration</button><button type="button" class="doc-tab" data-d="co">Company / LLP Registration</button></div>
+                <div class="doc-pane active" id="doc-itr" data-name="ITR Filing"><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">PAN card and Aadhaar (linked with each other)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Form 16 or salary slips</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Bank statements and interest certificates</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Form 26AS / AIS (tax credit statements)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Investment proofs (80C: PPF, ELSS, LIC, etc.)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Health insurance premium receipts and home loan interest certificate</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Capital gains statements (shares, mutual funds, property), if any</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">For business or professionals: books of accounts, profit and loss, balance sheet</span></label></div><div class="doc-pane" id="doc-gst" data-name="GST Registration"><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">PAN of the proprietor, firm or company</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Aadhaar and passport-size photo of the applicant</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Business address proof (electricity bill or rent agreement with owner&#x27;s NOC)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Bank account proof (cancelled cheque or statement)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Constitution proof (partnership deed or incorporation certificate, if applicable)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Details of authorised signatory</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Mobile number and email ID for OTP verification</span></label></div><div class="doc-pane" id="doc-co" data-name="Company / LLP Registration"><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">PAN and Aadhaar of all directors or partners</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Passport-size photos of directors or partners</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Address proof of directors or partners (bank statement or utility bill)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Registered office proof (electricity bill with NOC or rent agreement)</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Two or three proposed company / LLP names</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Mobile number and email ID of each director or partner</span></label><label class="doc-item"><input type="checkbox"><span class="doc-box"></span><span class="doc-txt">Digital Signature Certificate (DSC) of directors or partners</span></label></div>
+                <div class="doc-progress"><div class="doc-bar"><i id="docBar"></i></div><span id="docCount">0 of 0 ready</span></div>
+                <p class="doc-note">This is a general list. Exact documents can vary with your case, so we will confirm them in your free consultation.</p>
+                <div class="doc-cta"><a href="#" id="docWa" target="_blank" rel="noopener" class="btn btn-primary"><span>Get Help With Documents</span><i class="fab fa-whatsapp"></i></a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promise" id="promise">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Commitment</span>
+                <h2 class="section-title">What You Can Expect From Us</h2>
+            </div>
+            <div class="promise-grid">
+                <div class="promise-card"><div class="promise-ico"><i class="fas fa-clock"></i></div><h3>On-Time Filing</h3><p>We track your deadlines so returns are filed before the due date.</p></div>
+                <div class="promise-card"><div class="promise-ico"><i class="fas fa-indian-rupee-sign"></i></div><h3>Clear Fees</h3><p>You get a quote after your free consultation, with no hidden charges.</p></div>
+                <div class="promise-card"><div class="promise-ico"><i class="fas fa-lock"></i></div><h3>Fully Confidential</h3><p>Your documents and financial data are used only for your work.</p></div>
+                <div class="promise-card"><div class="promise-ico"><i class="fas fa-comments"></i></div><h3>Quick Response</h3><p>We answer your questions on phone, WhatsApp or email.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax Tips -->
+    <section class="tips" id="tips">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Simple Advice</span>
+                <h2 class="section-title">Tax Tips for You</h2>
+            </div>
+            <div class="tips-grid">
+                <article class="tip-card">
+                    <span class="tip-cat"><i class="fas fa-folder-open"></i> ITR</span>
+                    <h3>Keep your documents ready all year</h3>
+                    <p>Save Form 16, bank statements, investment proofs and your AIS in one folder as you receive them. It makes ITR filing quick and avoids last-minute stress.</p>
+                    <a href="#contact" class="tip-link">Ask us about this <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="tip-card">
+                    <span class="tip-cat"><i class="fas fa-file-circle-check"></i> ITR</span>
+                    <h3>File your return even if no tax is due</h3>
+                    <p>A filed return builds a clean financial record that helps with loans, visas and credit cards. Whether you must file depends on your income, so check with us.</p>
+                    <a href="#contact" class="tip-link">Ask us about this <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="tip-card">
+                    <span class="tip-cat"><i class="fas fa-calendar-check"></i> GST</span>
+                    <h3>Do not miss your GST return dates</h3>
+                    <p>Even a nil return usually has to be filed on time. Late filing can bring late fees and interest, and can affect your customers' input tax credit.</p>
+                    <a href="#contact" class="tip-link">Ask us about this <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="tip-card">
+                    <span class="tip-cat"><i class="fas fa-wallet"></i> Accounts</span>
+                    <h3>Keep business and personal money separate</h3>
+                    <p>Use a separate bank account for your business. Clean books make GST, tax filing and loan paperwork much easier.</p>
+                    <a href="#contact" class="tip-link">Ask us about this <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="tip-card">
+                    <span class="tip-cat"><i class="fas fa-magnifying-glass-chart"></i> ITR</span>
+                    <h3>Check your AIS before you file</h3>
+                    <p>Compare the income and TDS shown in your tax statements with your own records, and fix mismatches early to avoid notices later.</p>
+                    <a href="#contact" class="tip-link">Ask us about this <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="tip-card">
+                    <span class="tip-cat"><i class="fas fa-envelope-open-text"></i> Notices</span>
+                    <h3>Never ignore a tax notice</h3>
+                    <p>Notices usually come with a reply deadline. Share it with us as soon as you receive it and we will help you respond properly.</p>
+                    <a href="#contact" class="tip-link">Ask us about this <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+            <p class="tips-note">General guidance only. Tax rules and due dates change, so confirm what applies to your case with us.</p>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="faq-head">
+                <span class="faq-label">FAQ</span>
+                <h2>Frequently Asked <span class="faq-accent">Questions</span></h2>
+                <p>Quick answers to what clients ask us most.</p>
+            </div>
+            <div class="faq-list">
+<details class="faq-item"><summary>Which services does Accuratis Advisors offer?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>We handle accounting and bookkeeping, GST registration and returns, income tax (ITR) filing and planning, TDS, PF/ESI compliance, MSME/Udyam registration and general financial advisory. See the Services section above for the full list.</p></div></details>
+<details class="faq-item"><summary>Do I need a GST registration for my business?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>It depends on your business type, turnover and state, and the rules can change. GST registration is generally required once turnover crosses the government&#x27;s threshold, and is mandatory in certain cases such as some inter-state supplies or selling through e-commerce platforms. Book a free consultation and we will check your exact situation.</p></div></details>
+<details class="faq-item"><summary>Which documents are needed for income tax return filing?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>Usually your PAN and Aadhaar, Form 16 or other income proofs, bank statements, Form 26AS/AIS, investment and deduction proofs (such as 80C, health insurance, home loan interest) and capital gains statements if any. Businesses also need their books, profit and loss account and balance sheet.</p></div></details>
+<details class="faq-item"><summary>Can you work with me online if I am in another city?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>Yes. Most of our work can be handled remotely over phone, WhatsApp and email, so you can share documents and get your filings done without visiting an office.</p></div></details>
+<details class="faq-item"><summary>How much do your services cost?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>Fees depend on the scope of work, the volume of transactions and how often you need the service. We offer a free consultation, after which we share a clear quote so there are no surprises.</p></div></details>
+<details class="faq-item"><summary>What happens if I miss a filing deadline?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>Depending on the return, a late fee, interest or penalty may apply, and some benefits can be lost. The sooner you act the better, so contact us and we will help you file the pending returns and get back on track.</p></div></details>
+<details class="faq-item"><summary>Is my financial information kept confidential?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>Yes. We treat all client information as confidential and use it only for the filings and advice you have asked for.</p></div></details>
+<details class="faq-item"><summary>How do I get started?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-body"><p>Fill in the contact form below or message us on WhatsApp. We will understand your requirements in a free consultation and suggest the right plan for you.</p></div></details>
+            </div>
+            <div class="faq-more">
+                <p>Still have a question?</p>
+                <a href="#contact" class="btn btn-primary"><span>Ask Us Anything</span></a>
+            </div>
+        </div>
+        <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which services does Accuratis Advisors offer?", "acceptedAnswer": {"@type": "Answer", "text": "We handle accounting and bookkeeping, GST registration and returns, income tax (ITR) filing and planning, TDS, PF/ESI compliance, MSME/Udyam registration and general financial advisory. See the Services section above for the full list."}}, {"@type": "Question", "name": "Do I need a GST registration for my business?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on your business type, turnover and state, and the rules can change. GST registration is generally required once turnover crosses the government's threshold, and is mandatory in certain cases such as some inter-state supplies or selling through e-commerce platforms. Book a free consultation and we will check your exact situation."}}, {"@type": "Question", "name": "Which documents are needed for income tax return filing?", "acceptedAnswer": {"@type": "Answer", "text": "Usually your PAN and Aadhaar, Form 16 or other income proofs, bank statements, Form 26AS/AIS, investment and deduction proofs (such as 80C, health insurance, home loan interest) and capital gains statements if any. Businesses also need their books, profit and loss account and balance sheet."}}, {"@type": "Question", "name": "Can you work with me online if I am in another city?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Most of our work can be handled remotely over phone, WhatsApp and email, so you can share documents and get your filings done without visiting an office."}}, {"@type": "Question", "name": "How much do your services cost?", "acceptedAnswer": {"@type": "Answer", "text": "Fees depend on the scope of work, the volume of transactions and how often you need the service. We offer a free consultation, after which we share a clear quote so there are no surprises."}}, {"@type": "Question", "name": "What happens if I miss a filing deadline?", "acceptedAnswer": {"@type": "Answer", "text": "Depending on the return, a late fee, interest or penalty may apply, and some benefits can be lost. The sooner you act the better, so contact us and we will help you file the pending returns and get back on track."}}, {"@type": "Question", "name": "Is my financial information kept confidential?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We treat all client information as confidential and use it only for the filings and advice you have asked for."}}, {"@type": "Question", "name": "How do I get started?", "acceptedAnswer": {"@type": "Answer", "text": "Fill in the contact form below or message us on WhatsApp. We will understand your requirements in a free consultation and suggest the right plan for you."}}]}</script>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <span class="cta-badge">Ready to Get Started?</span>
+                <h2 class="cta-title">Let's Transform Your Financial Future</h2>
+                <p class="cta-desc">Schedule your free consultation today and discover how we can help your business thrive.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <span>Schedule Free Consultation</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://wa.me/918375994050?text=Hi,%20I%27d%20like%20more%20information%20about%20your%20services" class="btn btn-whatsapp btn-large" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Us</span>
+                    </a>
+                    <a href="tel:+918375994050" class="btn btn-secondary btn-large">
+                        <i class="fas fa-phone"></i>
+                        <span>Call Us Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Contact Us</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Office Address</h3>
+                            <p>MITRAMANDAL COLONY SAKET VIHAR ANISABAD PATNA 800002</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 8375994050</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:kumar.jit1504@gmail.com?subject=Request%20for%20Information&body=Hi,%20I%27m%20interested%20in%20your%20services.%20Please%20provide%20more%20details." style="color: inherit; text-decoration: none;">
+                                <p>kumar.jit1504@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <a href="https://wa.me/918375994050?text=Hi,%20I%27d%20like%20more%20information%20about%20Accuratis%20Advisors%20services" style="color: inherit; text-decoration: none;">
+                                <p>+91 8375994050</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Business Hours</h3>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat - Sun: By Appointment</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+                        <h3>Send Us a Message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="accounting">Accounting Services</option>
+                                <option value="tax">Tax Planning</option>
+                                <option value="advisory">Financial Advisory</option>
+                                <option value="business">Business Advisory</option>
+                                <option value="cloud">Cloud Accounting</option>
+                                <option value="audit">Audit & Assurance</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your needs" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Visit Us</span>
+                <h2 class="section-title">Find Our Office</h2>
+            </div>
+            <div class="loc-grid">
+                <div class="loc-card">
+                    <span class="open-badge" id="openBadge">Checking hours...</span>
+                    <div class="loc-row"><i class="fas fa-map-marker-alt"></i><div><h3>Office Address</h3><p>Mitramandal Colony, Saket Vihar,<br>Anisabad, Patna 800002</p></div></div>
+                    <div class="loc-row"><i class="fas fa-clock"></i><div><h3>Business Hours</h3><p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat - Sun: By Appointment</p></div></div>
+                    <div class="loc-row"><i class="fas fa-phone-alt"></i><div><h3>Phone / WhatsApp</h3><p><a href="tel:+918375994050">+91 8375994050</a></p></div></div>
+                    <div class="loc-btns"><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Mitramandal+Colony%2C+Saket+Vihar%2C+Anisabad%2C+Patna+800002"><span>Get Directions</span><i class="fas fa-location-arrow"></i></a><a class="btn btn-secondary loc-call" href="tel:+918375994050"><span>Call Now</span><i class="fas fa-phone-alt"></i></a></div>
+                </div>
+                <div class="map-frame"><div class="map-ph"><i class="fas fa-map-location-dot"></i><span>Accuratis Advisors<br>Anisabad, Patna</span></div><iframe title="Accuratis Advisors office location on Google Maps" src="https://www.google.com/maps?q=Mitramandal+Colony%2C+Saket+Vihar%2C+Anisabad%2C+Patna+800002&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img class="logo-img" src="logo.png" alt="Accuratis Advisors logo"><span class="logo-text">Accuratis <span class="highlight">Advisors</span></span>
+                    </div>
+                    <p>Your trusted partner for professional accounting, tax planning, and financial advisory services. We're committed to your financial success.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Accounting Services</a></li>
+                        <li><a href="#services">Tax Planning</a></li>
+                        <li><a href="#services">Financial Advisory</a></li>
+                        <li><a href="#services">Business Advisory</a></li>
+                        <li><a href="#services">Audit & Assurance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Jitendra Kumar</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> MITRAMANDAL COLONY SAKET VIHAR ANISABAD PATNA 800002</li>
+                        <li><i class="fas fa-phone"></i> +91 8375994050</li>
+                        <li><i class="fas fa-envelope"></i> kumar.jit1504@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Accounting Vision. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="logo-data.js"></script>
+    <script src="script.js"></script>
+    <script src="i18n-hi.js"></script>
+    <script src="extras.js"></script>
+    <nav class="mobile-cta" aria-label="Quick contact">
+        <a href="tel:+918375994050" class="mc-call"><i class="fas fa-phone-alt"></i><span>Call</span></a>
+        <a href="https://wa.me/918375994050?text=Hi,%20I%27d%20like%20more%20information%20about%20your%20services" class="mc-wa" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+        <a href="#contact" class="mc-book"><i class="fas fa-calendar-check"></i><span>Free Consultation</span></a>
+    </nav>
+</body>
+</html>
+
